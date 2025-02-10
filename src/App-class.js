@@ -5,7 +5,7 @@ import React, { Component } from "react";
 class App extends Component{
   constructor(props){
     super( props );
-    this.board = <Board slots='[{"label":"titou","duration":3},{"label":"Touti","duration":10}]'/>;
+    this.board = <Board slots='[{"label":"Intro","duration":15},{"label":"Main","duration":10}]'/>;
   }
 
     startTimer(){
