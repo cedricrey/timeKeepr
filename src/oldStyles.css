@@ -1,0 +1,109 @@
+.Slot {
+    /*text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 8px 22px -4px rgba(0, 0, 0, 0.3);
+    background-color: #EEF3F6;
+    margin: 1em;
+    animation: 0.3s ease opacity;
+    font-size: 0.8em;*/
+}
+
+.Slot.pending {
+    color: sandybrown;
+    opacity: 0.9;
+}
+
+.Slot .timebar,
+.Slot svg {
+    display: none
+}
+
+#currentSlotContener .Slot.running {
+    color: lime;
+    text-align: center;
+    height: calc(100% - 2em);
+    border-radius: 50px;
+    background-color: #EEF3F6;
+    font-size: 1em;
+}
+
+.Slot.running svg {
+    /*display: flex;*/
+    display: block;
+    height: calc(100% - 6em);
+    width: 100%;
+}
+
+.Slot.finnished {
+    color: orangered;
+    opacity: 0.5;
+}
+
+.Slot .title {
+    background-color: #FFF;
+    /*display: block;*/
+    padding: 0.6em;
+    text-align: left;
+    border-radius: 20px 20px 0 0;
+}
+
+.Slot.running .title {
+    border-radius: 50px 50px 0 0;
+}
+
+.editor .Slot input {
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    text-align: center;
+    min-width: 12em;
+    border-radius: 5px;
+    border: 1px solid #999;
+    background-color: #EEE;
+    color: #000;
+    font-size: 18px;
+    margin: 0.5em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-family: monospace;
+}
+
+.fixedNumber {
+    display: inline-block;
+    min-width: 1em;
+    text-align: right;
+}
+
+.timebar {
+    display: inline-block;
+    width: 200px;
+    height: 0.5em;
+    text-align: right;
+    ;
+}
+
+
+/*
+nav button {
+    margin: 10px 40px;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    text-align: center;
+    min-width: 12em;
+    background-color: #283758;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    margin: 0.5em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #027902;
+}
+*/
